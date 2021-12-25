@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Luxurious';
+    src: local("./DancingScript-VariableFont_wght.ttf"),
+ url("./DancingScript-VariableFont_wght.ttf") format("truetype");
+  }  
+.time{
+    color: #ffffff;
+    transition: all ease-in 1000ms;
+    font-family: Luxurious;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    word-spacing: 20px;
+    margin-top: 5rem;
+    text-shadow: 0 2px 0 #eff2f9;
+}

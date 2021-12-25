@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'TisaSansPro';
+    src: local("./TisaSansPro-Italic.ttf"),
+ url("./TisaSansPro-Italic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: 'Luxurious';
+    src: local("./DancingScript-VariableFont_wght.ttf"),
+ url("./DancingScript-VariableFont_wght.ttf") format("truetype");
+  }  
+.navbar{
+    width: 100%;
+    height: 2rem;
+    color: #eff2f9;
+    background-color: rgba(255, 0, 0, 0.808);
+    position: fixed;
+    z-index: 10;
+}
+.navbar a{
+    margin: 1rem;
+    line-height: 2rem;
+    font-family: TisaSansPro;
+}
+.navbar a:hover{
+    text-shadow: 0 2px 1px black;
+    transition: all 0.5s ease-in;
+}
+@keyframes nav{
+    0%{}
+    100%{
+        transform: translateY(10px);
+    }
+}
+.jing{
+    filter: drop-shadow( 0 3px 1px #0ff);
+    float: right;
+    margin-right: 1rem;
+    transform: rotate(45deg);
+    animation-name: bell;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes bell{
+    100%{
+        transform: rotate(0deg);
+        filter: drop-shadow( 0 3px 1px rgb(255, 0, 255))
+    }
+}
+.herro{
+    animation-name: nav;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.burger{
+    color: white;
+    font-size: 3rem;
+}
+.burger_link{
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    font-family: TisaSansPro;
+}
+.cart{
+    width: 50%;
+}
+.header{
+    height: 100vh;
+    width: 100vw;
+}
+.marquee{
+    position: relative;
+    top: -2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Luxurious';
+    text-shadow: 0 2px 1px red;
+}
+@media screen and (max-width: 700px){
+    .navbar{
+        height: 3rem;
+    }
+    .jing{
+        width: 25vw;
+    }
+    .marquee{
+        font-size: 1.5rem;
+        top: -2.5rem;
+    }
+}
+@media screen and (min-width: 700px){
+    .burger{
+        display: none;
+    }
+}
+/*===============================header*/
+@media screen and (max-width: 1100px){
+    .header{
+        height: 90vh;
+    }
+}
+@media screen and (max-width: 950px){
+    .header{
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 800px){
+    .header{
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 650px){
+    .header{
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 480px){
+    .header{
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 400px){
+    .header{
+        height: 40vh;
+    }
+}
