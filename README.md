@@ -8,6 +8,7 @@
 <a href="https://loving-kepler-ae4567.netlify.app/">https://loving-kepler-ae4567.netlify.app/</a><br />
 <h3>🔴using with:</h3>
 <p>📌react scroll parallax</p>
+<p>📌react snow fall</p>
 <p>📌react fast marquee></p>
 <p>📌chakra-js</p>
 <p>📌react-hook/window-size></p>
