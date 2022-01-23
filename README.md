@@ -19,4 +19,4 @@
   <a href="https://loving-kepler-ae4567.netlify.app/"><img src="./image/Capture11.PNG" /></a>
 </p>
 <p>-how to use it ⁉</p>
-<p>📤Copy this files in your Next app</p>
+<p>📤Copy this files in your Next.js app</p>
