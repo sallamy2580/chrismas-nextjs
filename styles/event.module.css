@@ -3,6 +3,7 @@
     src: local("./TisaSansPro-Italic.ttf"),
  url("./TisaSansPro-Italic.ttf") format("truetype");
   }
+
   @font-face {
     font-family: 'Luxurious';
     src: local("./DancingScript-VariableFont_wght.ttf"),
