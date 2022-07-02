@@ -25,9 +25,8 @@ return(
         </center>
         <Center>
             <HStack padding='1rem 0.5rem' spacing='1rem'>
-                <div onClick={()=> window.open("https://github.com/angelhtml", "_blank")}><BsGithub className={footerStyle.icon} /></div>
-                <div onClick={()=> window.open("https://twitter.com/Globalgroup16", "_blank")}><AiFillTwitterCircle className={footerStyle.icon} /></div>
-                <div onClick={()=> window.open("globalgroup9978@gmail.com", "_blank")}><AiOutlineMail className={footerStyle.icon} /></div>
+                <div onClick={()=> window.open("https://github.com/sallamy2580", "_blank")}><BsGithub className={footerStyle.icon} /></div>
+                <div onClick={()=> window.open("sallamy2580@gmail.com", "_blank")}><AiOutlineMail className={footerStyle.icon} /></div>
             </HStack>
         </Center>
 
